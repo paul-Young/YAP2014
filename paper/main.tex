@@ -1,0 +1,40 @@
+\documentclass[aps,prl,superscriptaddress,12pt]{revtex4-1}
+	\usepackage{graphicx}  % needed for figures
+	\usepackage{fancyhdr} % needed for team number and page number
+
+	% configure desired header format
+	\pagestyle{fancy}
+	\fancyhf{}
+	\lhead{ Team \#  }
+	\rhead{ Page \thepage\text{ }of \pageref{LastPage} }
+
+\begin{document}
+
+	\title{MCM 2014}
+	\author{Abigail Chua}
+		\affiliation{Denison University, Granville, OH, 43023, USA}
+	\author{Yubo Yang}
+		\affiliation{Denison University, Granville, OH, 43023, USA}
+	\author{Yifu Zhao}
+		\affiliation{Denison University, Granville, OH, 43023, USA}
+		
+	\begin{abstract}
+		\input{section/summary}
+	\end{abstract}
+	
+\maketitle
+
+	\section{Introduction}
+		Our writing style should follow guidelines such as \cite{science_writing}.
+
+	\section{Model}
+
+	\pagebreak
+
+	\section{Result}
+
+	\section{Discussion}
+	
+\bibliographystyle{unsrt}
+\bibliography{ref/ref}
+\end{document}
