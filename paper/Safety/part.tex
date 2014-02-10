@@ -1,0 +1,82 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{graphicx}
+
+\setlength{\topmargin}{-0.25in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{9.25in}
+\setlength{\textwidth}{6.5in}
+\setlength{\footskip}{0.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\parindent}{0.25in}
+\setlength{\parskip}{0pt}
+\usepackage{eqnarray,amsmath}
+
+\begin{document}
+
+
+
+Now, let's consider the case of overtaking in a microscopic perspective with two lanes to examine the safety issue of the rules imposed. There are a few different criteria that could be used to determine the safety. In over model, we consider mainly the two following, total amount of slow down distance by all affected cars and the number of cars that need to slow down. 
+
+Before analyzing the model, there are a few assumptions that we have made to simplify the model. Firstly, we assume each vehicle is a point, so the length is negligible. Secondly, to analyze the road performance of the cars with different traveling speed, we assume that the cars have two types of speed, $v_1$ and $v_2$ with $v_2 > v_1$. In a traveling equilibrium of a lane, we assume that the cars are separated by a distance of $d$ that is related to the speed of the car on that lane $v$, following time $t$ and the traffic density on that lane $\rho$. In particular, since cars are traveling in equilibrium condition, the speed is constant (except those cars that want to overtake others). The following time $t$ refers to the safe time difference that drivers deem for two adjacent cars to pass through the same spot of the road, which is usually around $1$ to $2$ seconds. Therefore, drivers will keep at least $d_m = vt$ distance from the car in front. However, usually drivers will not stick to the distance $d_m = vt$, but rather keep a distance that is a little bit further for extra safety. Hence, in equilibrium, the actual difference between two cars is $d_s = vt + d_0$, where $d_0$ is the extra safety distance, and it is a function of lane traffic density $\rho$, thus $d_0 = f(\rho)$. It is obvious that when $\rho$ is low, $c$ is large.
+
+\begin{center}
+\includegraphics[scale = 0.5]{P1}
+\end{center}
+
+We then consider the performance difference between the two situations (one with rule applied and one without). First consider the case where drivers are free to drive on both left and right lane, which is the case where no rule is enforced. In this case, when a car, $C_0$, overtakes another one, it needs to shift to the other lane and push back cars on that lane. In particular, in order to keep at least a safe distance $d_m = vt$ from the previous car, $C_0$ has to slow down and until the difference with the from car is $d_m$. This will suppress the distance with the car behind $C_1$, which will cause the car to slow down. Therefore, the action of overtaking will cause a series of slowing down of cars until all have reached at least a minimum safety distance $d_m$. 
+
+\begin{center}
+\includegraphics[scale = 0.5]{P2}
+\end{center}
+
+From the above graphical illustrations, we notice that the car $C_0$ is pushed back by $d_m-d_0$, $C_1$ is pushed back by $d_m-2d_0$ and the $i^{th}$ car is pushed back by $d_m-id_0$. The car $C_i$ will not slow down if $d_m-id_0\le 0$, i.e. $d_m \le id_0$. Therefore, the number of cars slowed down $n \approx d_m/d_0$ when $d_0 << d_m$. 
+
+Thus, we would be able to calculate the total amount of braking distance made by all cars after $C_0$
+
+\begin{align}
+&d_t = d_m-d_0 + d_m-2d_0 + \dots + d_m - nd_0 & \\
+&d_t = nd_m-\frac{(d_0+nd_0)(n)}{2}&\\
+&d_t = \frac{d_m^2}{d_0}-\frac{(d_0+d_m)(d_m)}{2d_0}&\\
+&d_t = \frac{d_m^2-d_0d_m}{2d_0}
+\end{align}
+
+In particular, if the $d_t \le 0$, which means no car needs to slow down, we have $d_m\le d_0$, which means that when the minimum safe distance is less than the extra safe distance, no car will slow down. 
+
+Now, let's take a look at the case if the rule is applied to the two lane traffic situation. In this case, the right lane is the regular lane and the left lane is the passing lane, which suppose to have a higher speed. When a car, $C_0$, is trying to take over the car(s) in front, it needs to shift to the left lane and then shift back to the right lane after overtaking a number of cars. Suppose $C_0$ only overtake one car $C_1$, then when $C_0$ shifts back to the right lane, $C_1$ probably needs a slow down if $d_m>d_0$. However, we notice that because $C_0$ has shifted out of the right lane in the first place, it has left a space of $2(d_s)$ behind $C_1$. Notice that, the slow down distance of $C_1$ after $C_0$ has shifted back to the is $d_m-d_0$. Therefore, the distance remain behind $C_1$ after it finished slowing down is
+
+\begin{align}
+&2(d_s)-(d_m-d_0)&\\
+=\ &2(d_m+d_0)-(d_m-d_0)&\\
+=\ &d_m+3d_0&\\
+\ge \ &d_m&
+\end{align}
+
+Therefore, in this case, $C_1$ is the only affected car. And the slow down distance is $d_m-d_0$
+
+If we increase the number of car that $C_0$ overtakes, we know that the first car overtaken by $C_0$ needs to slow down by $d_m-id_0$, which is less than $d_m+3d_0$. Thus, the maximum number of cars affected is $max(d_m/d_0, i)$. This shows that the number of cars slowed down is no more than the previous case. In addition, the total amount of slow down distance is still
+
+\begin{equation}
+d_t = d_m-d_0 + d_m-2d_0 + \dots + d_m - id_0 
+\end{equation}
+However, since $i\le n$, the total slow down distance is less or equal to the previous case. 
+
+
+\
+
+Now, let's consider the difference between light and heavy traffic. From our assumption, as the traffic density $\rho$ increase, $d_0$ decrease. Therefore, the number of cars slowed down $n\approx d_m/d_0$ is increased. This explains that as the traffic become heavier, the chance for a safety risk is increased. In light traffic, we notice that $d_m \approx d_0$, and then in this case, both situation (ruled and unruled) has no need for slowing down. Thus, the difference in safety issue is insignificant. 
+
+\
+
+\ 
+
+\
+
+
+
+
+\end{document}
