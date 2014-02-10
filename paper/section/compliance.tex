@@ -1,0 +1,13 @@
+All previous analysis is conducted based on the assumption that everyone is compliant with the rules. To test the effect of noncompliant drivers, we reconsider the velocity-density relation. Suppose a fraction $\eta$ of the drivers do not follow the two-second following rule. Instead they keep a different separation time $t'$. In this case equation (\ref{eq:follow}) needs to be modified to 
+\begin{align}
+& (1-\eta)(\rho + \rho_o)(d+l)+\eta(\rho + \rho_o)(d'+l) = 1 & \label{eq:follow1}
+\end{align}
+where $d = v_e t$ and $d' = v_e t'$, solving for $v_e$ yields
+\begin{align}
+	& v_e(\rho) = (\frac{1}{\rho+\rho_o}-l)^{-1}/((1-\eta)t+\eta t') &
+\end{align}
+In fact, it is straight forward to include many groups of drivers with different level of compliance to the two-second rule as 
+\begin{align}
+	& v_e(\rho) = (\frac{1}{\rho+\rho_o}-l)^{-1}/t_{\text{eff}} &
+\end{align} 
+where $t_{\text{eff}}=(\sum\limits_{i} \eta_i t^{(i)} )$ with $\sum\limits_i \eta_i=1$ being the fraction of each type of driver. $t^{(i)}$ are the following time rule they follow. In essence, noncompliance can be incorporated in the velocity-density relation through a simple change of parameter.
