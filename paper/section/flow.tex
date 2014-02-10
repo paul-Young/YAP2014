@@ -8,13 +8,12 @@
 	\end{tabular}
 	\caption{ variables used in the macroscopic model \label{tab:variables} }
 	\end{table}	 
-	Traffic flow rate is best captured in a macroscopic model with variables shown in Table \ref{tab:variables}. The total amount of traffic flow will then be determined by
+	
+	Traffic flow rate is best captured in a macroscopic model with variables shown in Table \ref{tab:variables}. We assume that at equilibrium, there is some velocity-density relation. Given this velocity-density relation, the flow at any given junction of the freeway at a given time is completely determined by the local traffic densities $\rho_1$ and $\rho_2$ as shown in equation (\ref{eq:flow}). Notice the units of flow rate Q is cars/s as expected.
 	\begin{align}
 	& Q(\rho_1,\rho_2) = \rho_1\cdot v_{1e}(\rho_1,\rho_2)+\rho_2\cdot v_{2e}(\rho_1,\rho_2) & \label{eq:flow}
 	\end{align}
-	
-	We further assume that at equilibrium, there is some velocity-density relation. Given this velocity-density relation, the flow at any given junction of the freeway at a given time is completely determined by the local traffic densities $\rho_1$ and $\rho_2$.
-	
+
 	\begin{comment} 
 Kerner elt. al. proposed the following relationship in 2002. 
 	\begin{align}
@@ -27,9 +26,9 @@ Kerner elt. al. proposed the following relationship in 2002.
 	\end{figure}
 	\end{comment}
 	
-	To derive such a relation, we consider all cars to have uniform length $l(m)$, travel with uniform velocity $v_e(\rho)$ and maintain uniform bumper-to-bumper distance $d(m)$ from their neighbors. At this equilibrium, each car will take up a total space of $d+l$ on one lane of the freeway. Since the highway won't be completely conjested all the time, there will normally be extra free space in between cars in addition to the safe following distance. We can think of this free space as being filled by an invisible vihcle density $\rho_0$, therefore
+	To derive such a relation, we consider all cars to have uniform length $l(m)$, travel with uniform velocity $v_e(\rho)$ and maintain uniform bumper-to-bumper distance $d(m)$ from their neighbors. At this equilibrium, each car will take up a total space of $d+l$ on one lane of the freeway. Since the highway won't be completely conjested all the time, there will normally be extra free space in between cars in addition to the safe following distance. We can think of this free space as being filled by an invisible vihcle density $\rho_0$, therefore to fill up the freeway with cars and spaces we require
 	\begin{align}
-	& \rho + \rho_o= \frac{1}{d+l} & \label{eq:follow}
+	& (\rho + \rho_o)(d+l) = 1 & \label{eq:follow}
 	\end{align}
 	Incorporating the two-second rule enforced by the New York Sate Department of Motor Vehicles \cite{science_writing}, $d=v_e(\rho)t$, where $t=2s$. Equation (\ref{eq:follow}) can be solved to obtain and expression for $v_e(\rho)$
 	\begin{align}
