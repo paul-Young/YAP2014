@@ -10,7 +10,7 @@
 	\end{table}	 
 	Traffic flow rate is best captured in a macroscopic model with variables shown in Table \ref{tab:variables}. The total amount of traffic flow will then be determined by
 	\begin{align}
-	& Q(\rho_1,\rho_2) = \rho_1\cdot v_1(\rho_1,\rho_2)+\rho_2\cdot v_2(\rho_1,\rho_2) & \label{eq:flow}
+	& Q(\rho_1,\rho_2) = \rho_1\cdot v_{1e}(\rho_1,\rho_2)+\rho_2\cdot v_{2e}(\rho_1,\rho_2) & \label{eq:flow}
 	\end{align}
 	
 	We further assume that at equilibrium, there is some velocity-density relation. Given this velocity-density relation, the flow at any given junction of the freeway at a given time is completely determined by the local traffic densities $\rho_1$ and $\rho_2$.
@@ -51,9 +51,11 @@ Kerner elt. al. proposed the following relationship in 2002.
 	\end{figure}
 	
 	With the speed-density relation determined, we can derive the flow of a two-lane freeway using the prescription described in equation \ref{eq:flow}
-	\begin{figure}
+	\begin{figure}[h]
 	\includegraphics[scale=.6]{plot/unregulated_flow}
 	\includegraphics[scale=.45]{plot/contour_flow}
 	\caption{traffic flow as a function of lane 1 and lane 2 traffic density on a two-lane freeway}
-	The contour plot provides a good prediction for how the traffic rule might affect the amount of traffic flow. In light traffic, $\rho_1+\rho_2$ is small. As seen in the bottom left corner of the contour plot of traffic flow, any bias in one lane over the other will reduce traffic flow. In this regime, as traffic increase, vehicles should utilize both lanes in the same way to maximize the total amount of traffic flowing through the freeway. However, as traffic satuate the road capacity, bias in the densities of the the roads does not affect traffic flow in a significant manner. This is demonstrated in the contour plot through an overlap of the contours lines of flow(blue) and of total traffic(red) on the road.
 	\end{figure}
+	
+	The contour plot provides a good prediction for how the traffic rule might affect the amount of traffic flow. In light traffic, $\rho_1+\rho_2$ is small. As seen in the bottom left corner of the contour plot of traffic flow, any bias in one lane over the other will reduce traffic flow. In this regime, as traffic increase, vehicles should utilize both lanes in the same way to maximize the total amount of traffic flowing through the freeway. However, as traffic satuate the road capacity, bias in the densities of the the roads does not affect traffic flow in a significant manner. This is demonstrated in the contour plot through an overlap of the contour lines of flow(blue) and of total traffic(red) on the road.
+	
