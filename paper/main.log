@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.12.6)  10 FEB 2014 01:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.17)  10 FEB 2014 10:09
 entering extended mode
 **main.tex
-(D:\Misc\GitHub\YAP2014\paper\main.tex
+(D:\GitHub\YAP2014\paper\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls"
+("D:\Software\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls"
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -73,7 +73,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 \widetext@top=\box39
 \widetext@bot=\box40
 Class revtex4-1 Info: Selecting society aps on input line 7542.
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\revtex\aps4-1.rtx"
+("D:\Software\MiKTeX 2.9\tex\latex\revtex\aps4-1.rtx"
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -81,19 +81,19 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal prl on input line 7544.
 Class revtex4-1 Info: APS journal PRL selected on input line 7545.
 
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\revtex\aps12pt4-1.rtx"
+("D:\Software\MiKTeX 2.9\tex\latex\revtex\aps12pt4-1.rtx"
 File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -102,36 +102,36 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\revtex\revsymb4-1.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\revtex\revsymb4-1.sty"
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("D:\Software\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("D:\Software\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("D:\Software\TeX\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("D:\Software\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("D:\Software\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count95
@@ -139,7 +139,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -150,26 +150,26 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen104
 )
 LaTeX Info: Redefining \text on input line 39.
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count96
@@ -210,7 +210,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("D:\Software\TeX\MiKTeX 2.9\tex\latex\comment\comment.sty"
+("D:\Software\MiKTeX 2.9\tex\latex\comment\comment.sty"
 \CommentStream=\write4
 
 Excluding comment 'comment')
@@ -220,7 +220,7 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 12.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 12.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 12.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 12.
- (D:\Misc\GitHub\YAP2014\paper\main.aux)
+ (D:\GitHub\YAP2014\paper\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -234,7 +234,7 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 
-("D:\Software\TeX\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("D:\Software\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen113
@@ -247,18 +247,17 @@ LaTeX Font Info:    ... okay on input line 12.
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks23
-) (D:\Misc\GitHub\YAP2014\paper\section/summary.tex) [1{C:/ProgramData/MiKTeX/2
-.9/pdftex/config/pdftex.map}]
+) (D:\GitHub\YAP2014\paper\section/summary.tex) [1{C:/ProgramData/MiKTeX/2.9/pd
+ftex/config/pdftex.map}]
 
 Package natbib Warning: Citation `science_writing' on page 2 undefined on input
  line 31.
 
-<plot/Q_p1_p2.png, id=7, 361.35pt x 256.96pt>
-File: plot/Q_p1_p2.png Graphic file (type png)
- <use plot/Q_p1_p2.png>
-Package pdftex.def Info: plot/Q_p1_p2.png used on input line 60.
-(pdftex.def)             Requested size: 361.34912pt x 256.95937pt.
+(D:\GitHub\YAP2014\paper\section/flow.tex
 
+LaTeX Warning: Reference `tab:variables' on page 2 undefined on input line 11.
+
+Excluding 'comment' comment.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.0pt.
@@ -268,41 +267,82 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 
 Package natbib Warning: Citation `science_writing' on page 3 undefined on input
- line 69.
+ line 34.
 
-[3 <D:/Misc/GitHub/YAP2014/paper/plot/Q_p1_p2.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:follow' on page 3 undefined on input line 34.
+
+<plot/speed_density.png, id=17, 361.35pt x 232.87pt>
+File: plot/speed_density.png Graphic file (type png)
+
+<use plot/speed_density.png>
+Package pdftex.def Info: plot/speed_density.png used on input line 49.
+(pdftex.def)             Requested size: 216.81168pt x 139.72307pt.
+
+
+LaTeX Warning: Reference `eq:flow' on page 3 undefined on input line 53.
+
+<plot/unregulated_flow.png, id=18, 361.35pt x 264.99pt>
+File: plot/unregulated_flow.png Graphic file (type png)
+
+<use plot/unregulated_flow.png>
+Package pdftex.def Info: plot/unregulated_flow.png used on input line 55.
+(pdftex.def)             Requested size: 216.81168pt x 158.99522pt.
+
+<plot/contour_flow.png, id=19, 361.35pt x 370.38374pt>
+File: plot/contour_flow.png Graphic file (type png)
+
+<use plot/contour_flow.png>
+Package pdftex.def Info: plot/contour_flow.png used on input line 56.
+(pdftex.def)             Requested size: 162.60599pt x 166.67113pt.
+) [3 <D:/GitHub/YAP2014/paper/plot/speed_density.png (PNG copy)>] [4 <D:/GitHub
+/YAP2014/paper/plot/unregulated_flow.png (PNG copy)> <D:/GitHub/YAP2014/paper/p
+lot/contour_flow.png (PNG copy)>]
+<plot/P1.jpg, id=26, 542.025pt x 182.6825pt>
+File: plot/P1.jpg Graphic file (type jpg)
+ <use plot/P1.jpg>
+Package pdftex.def Info: plot/P1.jpg used on input line 44.
+(pdftex.def)             Requested size: 271.01183pt x 91.34102pt.
+
+<plot/P2.jpg, id=27, 661.47125pt x 314.17375pt>
+File: plot/P2.jpg Graphic file (type jpg)
+ <use plot/P2.jpg>
+Package pdftex.def Info: plot/P2.jpg used on input line 50.
+(pdftex.def)             Requested size: 330.73482pt x 157.08649pt.
+ [5 <D:/GitHub/YAP2014/paper/plot/P1.jpg> <D:/GitHub/YAP2014/paper/plot/P2.jpg>
+] [6] [7]
 No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[4] (D:\Misc\GitHub\YAP2014\paper\main.aux)
+[8] (D:\GitHub\YAP2014\paper\main.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
 
  ) 
 Here is how much of TeX's memory you used:
- 3896 strings out of 493921
- 49458 string characters out of 3147686
- 121064 words of memory out of 3000000
- 7175 multiletter control sequences out of 15000+200000
+ 3923 strings out of 493921
+ 49730 string characters out of 3149290
+ 128022 words of memory out of 3000000
+ 7194 multiletter control sequences out of 15000+200000
  9410 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,12n,43p,446b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Software/TeX/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Sof
-tware/TeX/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Software/TeX
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Software/TeX/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Software/TeX/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><D:/Software/TeX/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb><D:/Software/TeX/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb><D:/Software/TeX/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><D:/Software/TeX/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/
-Software/TeX/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Software/Te
-X/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Software/TeX/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (4 pages, 167916 bytes).
+ 27i,12n,43p,1383b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Softwar
+e/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Software/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Software/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Software/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Software/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (8 pages, 225042 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
