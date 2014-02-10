@@ -1,37 +1,15 @@
-\documentclass[11pt]{article}
-\usepackage{amsmath,amsthm}
-\usepackage{amssymb}
-\usepackage{latexsym}
-\usepackage{graphicx}
-
-\setlength{\topmargin}{-0.25in}
-\setlength{\headheight}{0in}
-\setlength{\headsep}{0in}
-\setlength{\textheight}{9.25in}
-\setlength{\textwidth}{6.5in}
-\setlength{\footskip}{0.5in}
-\setlength{\oddsidemargin}{0in}
-\setlength{\evensidemargin}{0in}
-\setlength{\parindent}{0.25in}
-\setlength{\parskip}{0pt}
-\usepackage{eqnarray,amsmath}
-
-\begin{document}
-
-
-
 Now, let's consider the case of overtaking in a microscopic perspective with two lanes to examine the safety issue of the rules imposed. There are a few different criteria that could be used to determine the safety. In over model, we consider mainly the two following, total amount of slow down distance by all affected cars and the number of cars that need to slow down. 
 
 Before analyzing the model, there are a few assumptions that we have made to simplify the model. Firstly, we assume each vehicle is a point, so the length is negligible. Secondly, to analyze the road performance of the cars with different traveling speed, we assume that the cars have two types of speed, $v_1$ and $v_2$ with $v_2 > v_1$. In a traveling equilibrium of a lane, we assume that the cars are separated by a distance of $d$ that is related to the speed of the car on that lane $v$, following time $t$ and the traffic density on that lane $\rho$. In particular, since cars are traveling in equilibrium condition, the speed is constant (except those cars that want to overtake others). The following time $t$ refers to the safe time difference that drivers deem for two adjacent cars to pass through the same spot of the road, which is usually around $1$ to $2$ seconds. Therefore, drivers will keep at least $d_m = vt$ distance from the car in front. However, usually drivers will not stick to the distance $d_m = vt$, but rather keep a distance that is a little bit further for extra safety. Hence, in equilibrium, the actual difference between two cars is $d_s = vt + d_0$, where $d_0$ is the extra safety distance, and it is a function of lane traffic density $\rho$, thus $d_0 = f(\rho)$. It is obvious that when $\rho$ is low, $c$ is large.
 
 \begin{center}
-\includegraphics[scale = 0.5]{P1}
+\includegraphics[scale = 0.5]{plot/P1}
 \end{center}
 
 We then consider the performance difference between the two situations (one with rule applied and one without). First consider the case where drivers are free to drive on both left and right lane, which is the case where no rule is enforced. In this case, when a car, $C_0$, overtakes another one, it needs to shift to the other lane and push back cars on that lane. In particular, in order to keep at least a safe distance $d_m = vt$ from the previous car, $C_0$ has to slow down and until the difference with the from car is $d_m$. This will suppress the distance with the car behind $C_1$, which will cause the car to slow down. Therefore, the action of overtaking will cause a series of slowing down of cars until all have reached at least a minimum safety distance $d_m$. 
 
 \begin{center}
-\includegraphics[scale = 0.5]{P2}
+\includegraphics[scale = 0.5]{plot/P2}
 \end{center}
 
 From the above graphical illustrations, we notice that the car $C_0$ is pushed back by $d_m-d_0$, $C_1$ is pushed back by $d_m-2d_0$ and the $i^{th}$ car is pushed back by $d_m-id_0$. The car $C_i$ will not slow down if $d_m-id_0\le 0$, i.e. $d_m \le id_0$. Therefore, the number of cars slowed down $n \approx d_m/d_0$ when $d_0 << d_m$. 
@@ -69,14 +47,3 @@ However, since $i\le n$, the total slow down distance is less or equal to the pr
 \
 
 Now, let's consider the difference between light and heavy traffic. From our assumption, as the traffic density $\rho$ increase, $d_0$ decrease. Therefore, the number of cars slowed down $n\approx d_m/d_0$ is increased. This explains that as the traffic become heavier, the chance for a safety risk is increased. In light traffic, we notice that $d_m \approx d_0$, and then in this case, both situation (ruled and unruled) has no need for slowing down. Thus, the difference in safety issue is insignificant. 
-
-\
-
-\ 
-
-\
-
-
-
-
-\end{document}

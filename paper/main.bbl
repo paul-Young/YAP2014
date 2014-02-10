@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{tang_2004}
+TQ~Tang and HJ~Huang.
+\newblock {Continuum models for freeways with two lanes and numerical tests}.
+\newblock {\em {CHINESE SCIENCE BULLETIN}}, {49}({19}):{2097--2104}, {OCT}
+  {2004}.
+
+\bibitem{lighthill_1955}
+G.~B. Lighthill, M. H.;~Whitham.
+\newblock {On kinematic waves II: A theory of traffic flow on long crowded
+  roads}.
+\newblock {\em {Proceedings of the Royal Society}}, {229}:{317--345}, {1955}.
+
+\bibitem{richards_1955}
+PI~RICHARDS.
+\newblock {SHOCK-WAVES ON THE HIGHWAY}.
+\newblock {\em {OPERATIONS RESEARCH}}, {4}({1}):{42--51}, {1956}.
+
+\bibitem{jiang_2002}
+R~Jiang, QS~Wu, and ZJ~Zhu.
+\newblock {A new continuum model for traffic flow and numerical tests}.
+\newblock {\em {TRANSPORTATION RESEARCH PART B-METHODOLOGICAL}},
+  {36}({5}):{405--419}, {JUN} {2002}.
+
+\end{thebibliography}

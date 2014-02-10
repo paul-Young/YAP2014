@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.17)  10 FEB 2014 10:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.17)  10 FEB 2014 11:53
 entering extended mode
 **main.tex
 (D:\GitHub\YAP2014\paper\main.tex
@@ -250,99 +250,41 @@ LaTeX Font Info:    ... okay on input line 12.
 ) (D:\GitHub\YAP2014\paper\section/summary.tex) [1{C:/ProgramData/MiKTeX/2.9/pd
 ftex/config/pdftex.map}]
 
-Package natbib Warning: Citation `science_writing' on page 2 undefined on input
- line 31.
+LaTeX Warning: Reference `eq:ve' on page 2 undefined on input line 47.
 
-(D:\GitHub\YAP2014\paper\section/flow.tex
-
-LaTeX Warning: Reference `tab:variables' on page 2 undefined on input line 11.
-
-Excluding 'comment' comment.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
-
-Package natbib Warning: Citation `science_writing' on page 3 undefined on input
- line 34.
-
-
-LaTeX Warning: Reference `eq:follow' on page 3 undefined on input line 34.
-
-<plot/speed_density.png, id=17, 361.35pt x 232.87pt>
-File: plot/speed_density.png Graphic file (type png)
-
-<use plot/speed_density.png>
-Package pdftex.def Info: plot/speed_density.png used on input line 49.
-(pdftex.def)             Requested size: 216.81168pt x 139.72307pt.
-
-
-LaTeX Warning: Reference `eq:flow' on page 3 undefined on input line 53.
-
-<plot/unregulated_flow.png, id=18, 361.35pt x 264.99pt>
-File: plot/unregulated_flow.png Graphic file (type png)
-
-<use plot/unregulated_flow.png>
-Package pdftex.def Info: plot/unregulated_flow.png used on input line 55.
-(pdftex.def)             Requested size: 216.81168pt x 158.99522pt.
-
-<plot/contour_flow.png, id=19, 361.35pt x 370.38374pt>
-File: plot/contour_flow.png Graphic file (type png)
-
-<use plot/contour_flow.png>
-Package pdftex.def Info: plot/contour_flow.png used on input line 56.
-(pdftex.def)             Requested size: 162.60599pt x 166.67113pt.
-) [3 <D:/GitHub/YAP2014/paper/plot/speed_density.png (PNG copy)>] [4 <D:/GitHub
-/YAP2014/paper/plot/unregulated_flow.png (PNG copy)> <D:/GitHub/YAP2014/paper/p
-lot/contour_flow.png (PNG copy)>]
-<plot/P1.jpg, id=26, 542.025pt x 182.6825pt>
-File: plot/P1.jpg Graphic file (type jpg)
- <use plot/P1.jpg>
-Package pdftex.def Info: plot/P1.jpg used on input line 44.
-(pdftex.def)             Requested size: 271.01183pt x 91.34102pt.
-
-<plot/P2.jpg, id=27, 661.47125pt x 314.17375pt>
-File: plot/P2.jpg Graphic file (type jpg)
- <use plot/P2.jpg>
-Package pdftex.def Info: plot/P2.jpg used on input line 50.
-(pdftex.def)             Requested size: 330.73482pt x 157.08649pt.
- [5 <D:/GitHub/YAP2014/paper/plot/P1.jpg> <D:/GitHub/YAP2014/paper/plot/P2.jpg>
-] [6] [7]
-No file main.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[8] (D:\GitHub\YAP2014\paper\main.aux)
+[2] [3] (D:\GitHub\YAP2014\paper\main.bbl) [4]
+(D:\GitHub\YAP2014\paper\main.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 3923 strings out of 493921
- 49730 string characters out of 3149290
- 128022 words of memory out of 3000000
- 7194 multiletter control sequences out of 15000+200000
- 9410 words of font info for 34 fonts, out of 3000000 for 9000
+ 3902 strings out of 493921
+ 49368 string characters out of 3149290
+ 125125 words of memory out of 3000000
+ 7181 multiletter control sequences out of 15000+200000
+ 8916 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,12n,43p,1383b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,43p,587b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Softwar
 e/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Software/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Software/MiKTeX 2.9/fonts/type1/p
+fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Software/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmmi12.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmmi8.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Software/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Software/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (8 pages, 225042 bytes).
+s/type1/public/amsfonts/cm/cmsy10.pfb><D:/Software/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti10.pfb>
+Output written on main.pdf (4 pages, 143316 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

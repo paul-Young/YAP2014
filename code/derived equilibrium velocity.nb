@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    174147,       3068]
-NotebookOptionsPosition[    173050,       3026]
-NotebookOutlinePosition[    173395,       3041]
-CellTagsIndexPosition[    173352,       3038]
+NotebookDataLength[    174182,       3066]
+NotebookOptionsPosition[    173085,       3024]
+NotebookOutlinePosition[    173430,       3039]
+CellTagsIndexPosition[    173387,       3036]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -44,27 +44,25 @@ Cell[BoxData[{
     RowBox[{"cars", "/", "m"}], " ", "-", " ", 
     RowBox[{"empty", " ", "density"}]}], " ", "*)"}]}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{
-   RowBox[{"t", " ", "=", " ", "2"}], ";"}], " ", 
+  RowBox[{"\[Tau]f", " ", "=", " ", "2"}], ";", " ", 
   RowBox[{"(*", " ", 
    RowBox[{"s", " ", "-", " ", 
-    RowBox[{"safe", " ", "following", " ", "time"}]}], " ", 
-   "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
+    RowBox[{"safe", " ", "following", " ", "time"}]}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{"ve", "[", "\[Rho]_", "]"}], ":=", 
    RowBox[{
     RowBox[{"(", 
      RowBox[{
       FractionBox["1", 
-       RowBox[{"\[Rho]", "+", "\[Rho]0"}]], "-", "l"}], ")"}], "/", "t"}]}], 
-  ";"}]}], "Input",
+       RowBox[{"\[Rho]", "+", "\[Rho]0"}]], "-", "l"}], ")"}], "/", 
+    "\[Tau]f"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.601028304073204*^9, 3.6010283948653708`*^9}, {
    3.601028484472069*^9, 3.6010285325205193`*^9}, {3.6010285693992662`*^9, 
    3.601028576856136*^9}, {3.601028641896202*^9, 3.6010286423486056`*^9}, {
    3.601028706731098*^9, 3.6010287070431013`*^9}, 3.601028819815226*^9, {
    3.6010288546503534`*^9, 3.6010288663972626`*^9}, {3.601029194073778*^9, 
-   3.6010292006570396`*^9}}],
+   3.6010292006570396`*^9}, {3.6010345471953926`*^9, 3.601034554012656*^9}}],
 
 Cell[CellGroupData[{
 
@@ -3025,7 +3023,7 @@ Cell[BoxData["\<\"../paper/plot/contour_flow.png\"\>"], "Output",
 }, Open  ]]
 },
 WindowSize->{707, 816},
-WindowMargins->{{248, Automatic}, {Automatic, 51}},
+WindowMargins->{{100, Automatic}, {Automatic, 35}},
 FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
 StyleDefinitions->"Default.nb"
 ]
@@ -3042,32 +3040,32 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[579, 22, 103, 1, 49, "Subsection"],
-Cell[685, 25, 1485, 41, 129, "Input"],
+Cell[685, 25, 1520, 39, 129, "Input"],
 Cell[CellGroupData[{
-Cell[2195, 70, 258, 6, 68, "Input"],
-Cell[2456, 78, 231, 3, 31, "Output"],
-Cell[2690, 83, 230, 3, 31, "Output"]
+Cell[2230, 68, 258, 6, 68, "Input"],
+Cell[2491, 76, 231, 3, 31, "Output"],
+Cell[2725, 81, 230, 3, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2957, 91, 770, 16, 92, "Input"],
-Cell[3730, 109, 4222, 75, 247, "Output"],
-Cell[7955, 186, 320, 4, 31, "Output"]
+Cell[2992, 89, 770, 16, 92, "Input"],
+Cell[3765, 107, 4222, 75, 247, "Output"],
+Cell[7990, 184, 320, 4, 31, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8324, 196, 93, 1, 49, "Subsection"],
+Cell[8359, 194, 93, 1, 49, "Subsection"],
 Cell[CellGroupData[{
-Cell[8442, 201, 1101, 29, 112, "Input"],
-Cell[9546, 232, 116428, 1905, 228, "Output"],
-Cell[125977, 2139, 221, 3, 31, "Output"]
+Cell[8477, 199, 1101, 29, 112, "Input"],
+Cell[9581, 230, 116428, 1905, 228, "Output"],
+Cell[126012, 2137, 221, 3, 31, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[126247, 2148, 96, 1, 49, "Subsection"],
+Cell[126282, 2146, 96, 1, 49, "Subsection"],
 Cell[CellGroupData[{
-Cell[126368, 2153, 2460, 58, 312, "Input"],
-Cell[128831, 2213, 43902, 803, 384, "Output"],
-Cell[172736, 3018, 286, 4, 31, "Output"]
+Cell[126403, 2151, 2460, 58, 312, "Input"],
+Cell[128866, 2211, 43902, 803, 384, "Output"],
+Cell[172771, 3016, 286, 4, 31, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
