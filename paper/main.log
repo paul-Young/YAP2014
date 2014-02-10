@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 FEB 2014 15:24
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.17)  10 FEB 2014 15:40
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 FEB 2014 15:03
+>>>>>>> 5bf444c0604ec5da1dbdb4f96631a675a2464fe0
+>>>>>>> 37eb9a924c20506c8170a5c3ab31ea6986a9debf
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -243,6 +251,12 @@ LaTeX Font Info:    ... okay on input line 12.
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks23
+<<<<<<< HEAD
+) (D:\GitHub\YAP2014\paper\section/summary.tex) [1{C:/ProgramData/MiKTeX/2.9/pd
+ftex/config/pdftex.map}] (D:\GitHub\YAP2014\paper\section/flow.tex
+Excluding 'comment' comment.
+
+=======
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -297,6 +311,7 @@ e
 (./section/summary.tex) [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/u
 pdmap/pdftex.map}] (./section/flow.tex
 
+>>>>>>> 5bf444c0604ec5da1dbdb4f96631a675a2464fe0
 Package natbib Warning: Citation `science_writing' on page 2 undefined on input
  line 34.
 
@@ -306,26 +321,146 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
+[2] <plot/speed_density.png, id=17, 361.35pt x 232.87pt>
+=======
 [2] <plot/speed_density.png, id=18, 361.35pt x 232.87pt>
+>>>>>>> 5bf444c0604ec5da1dbdb4f96631a675a2464fe0
 File: plot/speed_density.png Graphic file (type png)
 
 <use plot/speed_density.png>
 Package pdftex.def Info: plot/speed_density.png used on input line 49.
 (pdftex.def)             Requested size: 216.81168pt x 139.72307pt.
 
+<<<<<<< HEAD
+<plot/unregulated_flow.png, id=18, 361.35pt x 264.99pt>
+=======
 <plot/unregulated_flow.png, id=19, 361.35pt x 264.99pt>
+>>>>>>> 5bf444c0604ec5da1dbdb4f96631a675a2464fe0
 File: plot/unregulated_flow.png Graphic file (type png)
 
 <use plot/unregulated_flow.png>
 Package pdftex.def Info: plot/unregulated_flow.png used on input line 55.
 (pdftex.def)             Requested size: 216.81168pt x 158.99522pt.
 
+<<<<<<< HEAD
+<plot/contour_flow.png, id=19, 361.35pt x 370.38374pt>
+=======
 <plot/contour_flow.png, id=20, 361.35pt x 370.38374pt>
+>>>>>>> 5bf444c0604ec5da1dbdb4f96631a675a2464fe0
 File: plot/contour_flow.png Graphic file (type png)
 
 <use plot/contour_flow.png>
 Package pdftex.def Info: plot/contour_flow.png used on input line 56.
 (pdftex.def)             Requested size: 162.60599pt x 166.67113pt.
+<<<<<<< HEAD
+) (D:\GitHub\YAP2014\paper\section/safety.tex
+[3 <D:/GitHub/YAP2014/paper/plot/speed_density.png (PNG copy)>] [4 <D:/GitHub/Y
+AP2014/paper/plot/unregulated_flow.png (PNG copy)> <D:/GitHub/YAP2014/paper/plo
+t/contour_flow.png (PNG copy)>] <plot/P1.jpg, id=26, 542.025pt x 182.6825pt>
+File: plot/P1.jpg Graphic file (type jpg)
+
+<use plot/P1.jpg>
+Package pdftex.def Info: plot/P1.jpg used on input line 6.
+(pdftex.def)             Requested size: 271.01183pt x 91.34102pt.
+ <plot/P2.jpg, id=27, 661.47125pt x 314.17375pt>
+File: plot/P2.jpg Graphic file (type jpg)
+
+<use plot/P2.jpg>
+Package pdftex.def Info: plot/P2.jpg used on input line 12.
+(pdftex.def)             Requested size: 330.73482pt x 157.08649pt.
+ [5 <D:/GitHub/YAP2014/paper/plot/P1.jpg> <D:/GitHub/YAP2014/paper/plot/P2.jpg>
+] [6]) (D:\GitHub\YAP2014\paper\section/disturbance.tex
+
+LaTeX Warning: Reference `eq:ve' on page 7 undefined on input line 8.
+
+[7]
+
+LaTeX Warning: Reference `eq:ve' on page 8 undefined on input line 22.
+
+
+LaTeX Warning: Reference `eq:ve' on page 8 undefined on input line 24.
+
+<plot/p1_light_disturb_unbiased.png, id=38, 361.35pt x 274.02374pt>
+File: plot/p1_light_disturb_unbiased.png Graphic file (type png)
+
+<use plot/p1_light_disturb_unbiased.png>
+Package pdftex.def Info: plot/p1_light_disturb_unbiased.png used on input line 
+30.
+(pdftex.def)             Requested size: 216.81168pt x 164.41551pt.
+
+<plot/p2_light_disturb_unbiased.png, id=39, 361.35pt x 274.02374pt>
+File: plot/p2_light_disturb_unbiased.png Graphic file (type png)
+
+<use plot/p2_light_disturb_unbiased.png>
+Package pdftex.def Info: plot/p2_light_disturb_unbiased.png used on input line 
+31.
+(pdftex.def)             Requested size: 216.81168pt x 164.41551pt.
+ [8]
+<plot/p1_light_disturb_biased.png, id=45, 361.35pt x 274.02374pt>
+File: plot/p1_light_disturb_biased.png Graphic file (type png)
+
+<use plot/p1_light_disturb_biased.png>
+Package pdftex.def Info: plot/p1_light_disturb_biased.png used on input line 36
+.
+(pdftex.def)             Requested size: 216.81168pt x 164.41551pt.
+
+<plot/p2_light_disturb_biased.png, id=46, 361.35pt x 274.02374pt>
+File: plot/p2_light_disturb_biased.png Graphic file (type png)
+
+<use plot/p2_light_disturb_biased.png>
+Package pdftex.def Info: plot/p2_light_disturb_biased.png used on input line 37
+.
+(pdftex.def)             Requested size: 216.81168pt x 164.41551pt.
+
+<plot/p1_heavy_disturb_unbiased.png, id=47, 361.35pt x 274.02374pt>
+File: plot/p1_heavy_disturb_unbiased.png Graphic file (type png)
+
+<use plot/p1_heavy_disturb_unbiased.png>
+Package pdftex.def Info: plot/p1_heavy_disturb_unbiased.png used on input line 
+42.
+(pdftex.def)             Requested size: 216.81168pt x 164.41551pt.
+
+<plot/p2_heavy_disturb_unbiased.png, id=48, 361.35pt x 274.02374pt>
+File: plot/p2_heavy_disturb_unbiased.png Graphic file (type png)
+
+<use plot/p2_heavy_disturb_unbiased.png>
+Package pdftex.def Info: plot/p2_heavy_disturb_unbiased.png used on input line 
+43.
+(pdftex.def)             Requested size: 216.81168pt x 164.41551pt.
+
+<plot/p1_heavy_disturb_biased.png, id=49, 361.35pt x 274.02374pt>
+File: plot/p1_heavy_disturb_biased.png Graphic file (type png)
+
+<use plot/p1_heavy_disturb_biased.png>
+Package pdftex.def Info: plot/p1_heavy_disturb_biased.png used on input line 48
+.
+(pdftex.def)             Requested size: 216.81168pt x 164.41551pt.
+
+<plot/p2_heavy_disturb_biased.png, id=50, 361.35pt x 274.02374pt>
+File: plot/p2_heavy_disturb_biased.png Graphic file (type png)
+
+<use plot/p2_heavy_disturb_biased.png>
+Package pdftex.def Info: plot/p2_heavy_disturb_biased.png used on input line 49
+.
+(pdftex.def)             Requested size: 216.81168pt x 164.41551pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <D:/GitHub/YAP2014/paper/plot/p1_light_disturb_unbiased.png (PNG copy)> <D:/
+GitHub/YAP2014/paper/plot/p2_light_disturb_unbiased.png (PNG copy)> <D:/GitHub/
+YAP2014/paper/plot/p1_light_disturb_biased.png (PNG copy)> <D:/GitHub/YAP2014/p
+aper/plot/p2_light_disturb_biased.png (PNG copy)> <D:/GitHub/YAP2014/paper/plot
+/p1_heavy_disturb_unbiased.png (PNG copy)> <D:/GitHub/YAP2014/paper/plot/p2_hea
+vy_disturb_unbiased.png (PNG copy)>]) [10 <D:/GitHub/YAP2014/paper/plot/p1_heav
+y_disturb_biased.png (PNG copy)> <D:/GitHub/YAP2014/paper/plot/p2_heavy_disturb
+_biased.png (PNG copy)>] (D:\GitHub\YAP2014\paper\main.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[11] (D:\GitHub\YAP2014\paper\main.aux)
+=======
 ) (./section/safety.tex [3 <./plot/speed_density.png (PNG copy)>] [4 <./plot/un
 regulated_flow.png (PNG copy)> <./plot/contour_flow.png (PNG copy)>] <plot/P1.j
 pg, id=28, 542.025pt x 182.6825pt>
@@ -349,11 +484,36 @@ LaTeX Warning: Reference `eq:ve' on page 8 undefined on input line 47.
 Package natbib Warning: There were undefined citations.
 
 [10] (./main.aux)
+>>>>>>> 5bf444c0604ec5da1dbdb4f96631a675a2464fe0
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+ 3992 strings out of 493921
+ 51769 string characters out of 3149290
+ 129170 words of memory out of 3000000
+ 7246 multiletter control sequences out of 15000+200000
+ 9756 words of font info for 35 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,12n,43p,1407b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Softwar
+e/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Software/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Software/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Software
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Software/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><D:/Software/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><D:/Software/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (11 pages, 550240 bytes).
+PDF statistics:
+ 99 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
  4310 strings out of 493315
  57267 string characters out of 6137904
  146115 words of memory out of 5000000
@@ -379,4 +539,5 @@ PDF statistics:
  60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 5bf444c0604ec5da1dbdb4f96631a675a2464fe0
 
