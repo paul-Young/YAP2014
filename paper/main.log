@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 FEB 2014 18:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  10 FEB 2014 18:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -297,6 +297,10 @@ e
 (./section/summary.tex) [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/u
 pdmap/pdftex.map}] (./section/flow.tex
 
+Package natbib Warning: Citation `science_writing' on page 2 undefined on input
+ line 33.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.0pt.
  We now make it that large for the rest of the document.
@@ -306,21 +310,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: plot/speed_density.png Graphic file (type png)
 
 <use plot/speed_density.png>
-Package pdftex.def Info: plot/speed_density.png used on input line 49.
+Package pdftex.def Info: plot/speed_density.png used on input line 48.
 (pdftex.def)             Requested size: 216.81168pt x 139.72307pt.
 
 <plot/unregulated_flow.png, id=19, 361.35pt x 264.99pt>
 File: plot/unregulated_flow.png Graphic file (type png)
 
 <use plot/unregulated_flow.png>
-Package pdftex.def Info: plot/unregulated_flow.png used on input line 55.
+Package pdftex.def Info: plot/unregulated_flow.png used on input line 54.
 (pdftex.def)             Requested size: 216.81168pt x 158.99522pt.
 
 <plot/contour_flow.png, id=20, 361.35pt x 370.38374pt>
 File: plot/contour_flow.png Graphic file (type png)
 
 <use plot/contour_flow.png>
-Package pdftex.def Info: plot/contour_flow.png used on input line 56.
+Package pdftex.def Info: plot/contour_flow.png used on input line 55.
 (pdftex.def)             Requested size: 162.60599pt x 166.67113pt.
 
 
@@ -328,10 +332,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3 <./plot/speed_density.png (PNG copy)>]) (./section/disturbance.tex
 
+Package natbib Warning: Citation `tang_2004' on page 4 undefined on input line 
+1.
+
+
+Package natbib Warning: Citation `lighthill_1955' on page 4 undefined on input 
+line 1.
+
+
+Package natbib Warning: Citation `richards_1955' on page 4 undefined on input l
+ine 1.
+
+
+Package natbib Warning: Citation `jiang_2002' on page 4 undefined on input line
+ 1.
+
+
 LaTeX Warning: Reference `eq:ve' on page 4 undefined on input line 8.
+
+
+Package natbib Warning: Citation `tang_2004' on page 4 undefined on input line 
+8.
 
 [4 <./plot/unregulated_flow.png (PNG copy)> <./plot/contour_flow.png (PNG copy)
 >]
+
+Package natbib Warning: Citation `tang_2004' on page 5 undefined on input line 
+10.
+
 
 LaTeX Warning: Reference `eq:ve' on page 5 undefined on input line 22.
 
@@ -423,22 +451,31 @@ Package pdftex.def Info: plot/P1.jpg used on input line 12.
 File: plot/P2.jpg Graphic file (type jpg)
 
 <use plot/P2.jpg>
-Package pdftex.def Info: plot/P2.jpg used on input line 17.
+Package pdftex.def Info: plot/P2.jpg used on input line 18.
 (pdftex.def)             Requested size: 330.73482pt x 157.08649pt.
- [8 <./plot/P1.jpg>] [9 <./plot/P2.jpg>]) [10] (./main.bbl)
-[11] (./main.aux)
+ [8 <./plot/P1.jpg>] [9 <./plot/P2.jpg>]) [10]
+(./section/compliance.tex)
+No file main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[11] [12] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  ) 
 Here is how much of TeX's memory you used:
- 4356 strings out of 493315
- 58827 string characters out of 6137904
- 141129 words of memory out of 5000000
- 7738 multiletter control sequences out of 15000+600000
+ 4345 strings out of 493315
+ 58576 string characters out of 6137904
+ 142083 words of memory out of 5000000
+ 7726 multiletter control sequences out of 15000+600000
  9756 words of font info for 35 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,12n,43p,1460b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,43p,1470b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -451,10 +488,10 @@ al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (11 pages, 544400 bytes).
+Output written on main.pdf (12 pages, 536188 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
