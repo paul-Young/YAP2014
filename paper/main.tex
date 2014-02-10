@@ -31,41 +31,13 @@
 	\section{Model}
 	To simplify the model, we consider a stretch of straight two-lane freeway with no on/off ramp. To assess the performance of the given traffic rule, we would like to analyze its impact on traffic flow, road safety, and ability to recovery from traffic jams.
 	\subsection{traffic flow} 
-	%\input{section/flow}
+	\input{section/flow}
 	
 	\subsection{safety}
-	%\input{section/safety}
+	\input{section/safety}
 	
 	\subsection{traffic disturbance}
-	An important measure of the robustness of a traffic rule is its ability to resolve traffic disturbance. Here we adopt a hybrid of car-following and classic kinematic wave theory theory from literature \cite{tang_2004}.  In this theory, classic LWR kinematcs wave model \cite{lighthill_1955,richards_1955} is combined with a variation of car-following theory \cite{jiang_2002}, giving the following four equations that describe the temperal and spatial variations of the traffic density as well as average velocity of vehicles on the two lanes of the freeway.
-	\begin{align} \label{eq:pde}
-	& \frac{\partial \rho_1}{\partial t} + \frac{\partial \rho_1}{\partial x}v_1+\rho_1\frac{\partial v_1}{\partial x}=s_1 & \\
-	& \frac{\partial v_1}{\partial t} + v_1\frac{\partial v_1}{\partial x} = \frac{v_{1e}-v_1}{\tau_1}+c_{10}\frac{\partial v_1}{\partial x} & \\
-	& \frac{\partial \rho_2}{\partial t} + \frac{\partial \rho_2}{\partial x}v_2+\rho_2\frac{\partial v_2}{\partial x}=s_2 & \\
-	& \frac{\partial v_2}{\partial t} + v_2\frac{\partial v_2}{\partial x} = \frac{v_{2e}-v_2}{\tau_2}+c_{20}\frac{\partial v_2}{\partial x} &
-	\end{align}
-	where we take $v_{1e} = v_{2e}$ to be the equilibrium velocity-density relations derived from previous sections (equation (\ref{eq:ve})). The source terms for lane 1 and lane 2 must satiesfy  $s_1+s_2=0$ by the assumption of no on/off ramp. They will be determined by the traffic rule. Adhering to the assumption that the two roads are identical, we choose $\tau_1=\tau_2=10s$ and $c_{10}=c_{20}=11m/s$ according to the stability contraint proposed by Tang and Huang\citep{tang_2004}.
-	
-	We impose periodic boundary condition and initial condition that represents a traffic disturbance in lane 1 to observe traffic behavior after the disturbance. $\rho_1(x,0)$ is the functional form of a traffic disturbance suggested in \citep{tang_2004}. $L$ is the length of freeway of interest. $\rho_{10}$ is the average vehicle density on lane 1 and $\Delta \rho_{10}$ is the size of the disturbance. 
-	\begin{align}
-	& \rho_1(0,t) = \rho_1(L,t) & \\
-	& v_1(0,t) = v_1(L,t) & \\
-	& \rho_2(0,t) = \rho_2(L,t) & \\
-	& v_2(0,t) = v_2(L,t) & \\
-	&\rho_1(x,0)=\rho_{10}+\Delta \rho_{10}\left(  cosh^{-2}(\frac{160}{L}(x-\frac{5L}{16}))-\frac{1}{4}cosh^{-2}(\frac{40}{L}(x-\frac{11L}{32})) \right)& \\
-	& v_1(x,0) = v_{1e}(\rho_1(x,0)) & \\
-	&\rho_2(x,0)= \rho_{20}& \\ \label{eq:ic}
-	& v_2(x,0) = v_{2e}(\rho_2(x,0)) & \\
-	\end{align}
-		
-	Equations (\ref{eq:pde}-\ref{eq:ic}) are solved using Mathematica 9.0. Four sets of parameters were chosen to represent
-	\begin{enumerate}
-	\item{light traffic, no rule:}
-		$\rho_{10}=\rho_{20}=$
-	\item{heavy traffic, no rule:}
-	\item{light traffic, keep-right:}
-	\item{heavy traffic, keep-right:}
-	\end{enumerate}
+	\input{section/disturbance}
 	
 	\pagebreak
 
