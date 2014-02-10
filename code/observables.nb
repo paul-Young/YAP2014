@@ -1,0 +1,125 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4238,        116]
+NotebookOptionsPosition[      3850,         97]
+NotebookOutlinePosition[      4192,        112]
+CellTagsIndexPosition[      4149,        109]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["flow", "Subsection",
+ CellChangeTimes->{{3.6009783305436277`*^9, 3.6009783330436497`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", "\[IndentingNewLine]", 
+  RowBox[{"Table", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"\[Rho]", "[", 
+           RowBox[{"x", ",", "t"}], "]"}], "*", 
+          RowBox[{"v", "[", 
+           RowBox[{"x", ",", "t"}], "]"}]}], ")"}], "/.", "sol"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"L", "/", "4"}], ",", 
+         RowBox[{"L", "/", "2"}], ",", "1"}], "}"}]}], "]"}], "//", "Total"}],
+     "\[IndentingNewLine]", ",", 
+    RowBox[{"{", 
+     RowBox[{"t", ",", "0", ",", "T", ",", 
+      RowBox[{"T", "/", "100"}]}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6009782640425653`*^9, 3.6009783110087185`*^9}, {
+  3.600978353809437*^9, 3.600978354200013*^9}, {3.6009784238880644`*^9, 
+  3.600978444310102*^9}, {3.6009784939612103`*^9, 3.600978502601904*^9}, {
+  3.600978582868119*^9, 3.600978592180738*^9}, {3.600978631071673*^9, 
+  3.600978725525543*^9}, {3.600983065674306*^9, 3.600983080377554*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
+1:eJxNjX1MzHEcx38LrUh3ckaxXKjVaSmFUHrndN31eA91dyGS8rRdHcYfLtxu
+mMfSUsxoxYxmihgz1FWeXTLzrFxjElvW5nF5Nn6f7/e3/fbb6/f6vD6foPxi
+faGHIAiFf96/339Pf8KSczJlgNcm/P+B6BHu8GcKkb1Q31vfIJ0kshQFU1PN
+8yUiy5Dw8+jbBcRj8KR6S10L8Thc6HS4fb1FliNv/5aKn3RvAgadKnd1+Ig8
+CS/7Kt7vloocgj3WhurwkSKHwlahr3MSK2C3tm6d6CdyOPI+9FtsdD8CYUM0
+G5KGixyJRlln5Xm6F4UUp2vbN+KpuG3STj5O89G4V+ittPuKHAPJUFdpOu2f
+huYOz8cPiafDp3jnOzfxDBz50rx5I3EsmoJXv5hJPBOfNJc9RxHPgmNgTq8X
+8WxIJHlrJMRx8Em27JtAHI8DltPxccRz8HHAlmskTkBV9JRXq4iB1qtRTWtF
+tgN3Z+k+W8knIqPAtdNCPhHYkTCW9XNR1eVoX0Z+LjpURTeWkldCfvFpxBLy
+ShwsOhy2mPw8rPxa3pVLfh7GKPZaiYUk9L6wei0in4Rtfd0xrFdBHjT2GrFd
+hbiz+e3MJ0PZNVDEfDIU90Pu0D5Bjda2sEFsvxr+PapYdl8D6eqWXQvJa+BR
+0xlILKTgQMNzP+ZTUHO2z8B8KmLV+SXMp0LmO2wP82k4VDKa25+GkcMu2JhP
+R32kfwHz6ThWYNEwn4G4wFeRzGeg9UHdeOYzUfarP4D5TOTURgQxr4Uj1hVM
+DC0eDq8MZfNaPAp3hxE7tRhcKyhYr0P3ukzmocO780Fcr8Ox4vYQ1utQdvIE
+uyfooVjvzd3XQ67yYGzX48TrQMZOPfat0XO9ASX+lVxvwA9PN9cb0Lg8lLtv
+QMyKlYyFLMinHWSMLEi/NTK2Z6Gm5yTXZ+HNkDKuz0Zo7Wauz4ZsUQnXZ6N7
+sYPrs3HpVinXG/G0qZrrjViV38D1Rhx5fIXrjTiTeIPrTbjddpPrTYjqaeN6
+E/w8WrjeBPX3Zq43Q53r5Hoztp/i5u1m2NZx+5xmVMVf4/ocZJZe5/ocBPT/
+49/wNILn
+     "]]}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 480.9561019784853},
+  Method->{},
+  PlotRange->{{0, 101.}, {480.9561019784853, 480.96531499511093`}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{2.02, 2.02}, {0.00018426033251216722`, 
+   0.00018426033251216722`}}]], "Output",
+ CellChangeTimes->{{3.600978290397153*^9, 3.600978311315918*^9}, 
+   3.6009783491999836`*^9, {3.6009784309349966`*^9, 3.6009784446538553`*^9}, {
+   3.6009784915392585`*^9, 3.6009785030237255`*^9}, {3.6009785848524995`*^9, 
+   3.600978592399437*^9}, 3.6009786453842306`*^9, 3.600978726650499*^9, 
+   3.6009787909010286`*^9, {3.60098305695544*^9, 3.6009830822837696`*^9}, 
+   3.600983160096887*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{707, 636},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 96, 1, 49, "Subsection"],
+Cell[CellGroupData[{
+Cell[700, 27, 1139, 27, 112, "Input"],
+Cell[1842, 56, 1980, 37, 231, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
