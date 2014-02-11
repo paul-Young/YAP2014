@@ -3,10 +3,11 @@
 	\usepackage{fancyhdr} % needed for team number and page number
 	\usepackage{amsmath}
 	\usepackage{comment}
+	\usepackage{setspace}
 	% configure desired header format
 	\pagestyle{fancy}
 	\fancyhf{}
-	\lhead{ Team \#  }
+	\lhead{ Team \#29053  }
 	\rhead{ Page \thepage\text{ }of \pageref{LastPage} }
 
 \begin{document}
@@ -20,6 +21,7 @@
 	%	\affiliation{Denison University, Granville, OH, 43023, USA}
 		
 	\begin{abstract}
+	\singlespacing
 		\input{section/summary}
 	\end{abstract}
 	
@@ -42,6 +44,8 @@
 	\section{Discussion}
 		\subsection{Compliance}
 		\input{section/compliance}
+		
+		\input{section/compliance_discrete}
 	
 	\section{Conclusion}
 
